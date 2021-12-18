@@ -1,0 +1,18 @@
+package youTube;
+
+public class ArrofObject {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+class Food {
+	String name;
+	
+	Food(String n){
+		this.name = n;
+	}
+}

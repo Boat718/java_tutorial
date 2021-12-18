@@ -1,0 +1,16 @@
+package youTube;
+
+public class Encapsulationn {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
+
+class Carcar {
+	private String make;
+	private String model;
+	private int year;
+}

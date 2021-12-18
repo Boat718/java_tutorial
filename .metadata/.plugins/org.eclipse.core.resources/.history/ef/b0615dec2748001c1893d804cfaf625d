@@ -1,0 +1,30 @@
+package youTube;
+
+public class Constructorss {
+
+	public static void main(String[] args) {
+		// constructor = special method that is called when an object is instantiated (Created)
+		
+		Human human1 = new Human("B",99);
+		
+		System.out.println(human1.a);
+
+	}
+
+}
+
+class Human{
+	
+	
+	String n;
+	int a;
+	
+	//constructor
+	Human(String name,int age){
+		this.n = name;
+		this.a = age;
+	}
+	
+	
+	
+}

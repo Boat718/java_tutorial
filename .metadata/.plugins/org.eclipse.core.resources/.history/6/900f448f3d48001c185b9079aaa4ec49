@@ -1,0 +1,23 @@
+package youTube;
+
+public class Objectpassing {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+class Garage{
+	
+	Garage()
+	
+}
+
+class Car{
+	String name;
+	Car(String n){
+		this.name = n;
+	}
+}

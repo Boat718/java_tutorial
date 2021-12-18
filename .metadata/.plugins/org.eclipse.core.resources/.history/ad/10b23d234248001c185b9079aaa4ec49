@@ -1,0 +1,20 @@
+package youTube;
+
+public class StaticKeyWord {
+
+	public static void main(String[] args) {
+		// static = modifier. A single copy of a variable/method is created and shared.
+		//	The class "owns" the static member
+		System.out.println(Ex.num);
+	}
+
+}
+ class Ex {
+	 String n;
+	 static int num;
+	 Ex(String name){
+		 this.n = name;
+		 num++;
+	 }
+	 
+ }

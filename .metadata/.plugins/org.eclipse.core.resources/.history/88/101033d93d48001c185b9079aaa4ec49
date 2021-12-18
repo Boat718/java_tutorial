@@ -1,0 +1,37 @@
+package youTube;
+
+public class Objectpassing {
+
+	public static void main(String[] args) {
+		
+		Garage g = new Garage();
+		
+		
+		Car name = new Car("BMW");
+		
+		g.park(name);
+		
+		
+		
+		
+		System.out.println();
+
+	}
+
+}
+
+class Garage{
+	
+	
+	void park(Car n){
+		System.out.println("The ",+n.name+"is parking in garage");
+	}
+	
+}
+
+class Car{
+	String name;
+	Car(String n){
+		this.name = n;
+	}
+}

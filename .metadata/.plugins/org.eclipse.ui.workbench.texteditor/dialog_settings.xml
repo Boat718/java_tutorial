@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="File file = new File(&quot;C:\\Users\\kittikawinpaw\\Desktop\\test.txt&quot;);"/>
+		<list key="findhistory">
+			<item value="File file = new File(&quot;C:\\Users\\kittikawinpaw\\Desktop\\test.txt&quot;);"/>
+			<item value="arrOfFoods[0] = arr1;"/>
+			<item value="1-50 4.25"/>
+			<item value="ing name = &quot;Boat&quot;;"/>
+		</list>
+	</section>
+</section>

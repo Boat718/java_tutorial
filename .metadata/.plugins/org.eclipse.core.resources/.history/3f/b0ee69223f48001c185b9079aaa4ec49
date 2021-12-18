@@ -1,0 +1,21 @@
+package youTube;
+
+public class Objectpassing {
+
+	public static void main(String[] args) {
+
+		Carrrr name = new Carrrr("BMW");
+		
+		System.out.println(name.name);
+	}
+}
+
+class Carrrr{
+	String name;
+	Carrrr(String n){
+		this.name = n;
+	}
+}
+
+
+
